@@ -2,108 +2,84 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
+*{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
-
-body {
-    background: black;
+body{
+    background:black;
     color: white;
 }
-
-#header {
+#header{
     width: 100%;
     height: 100vh;
     background: url(images/web_background.png);
     background-size: cover;
     background-position: center;
 }
-
-.container {
+.container{
     padding: 0 10%;
 }
-
-nav {
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-nav ul li {
+nav ul li{
     display: inline-block;
     list-style: none;
     margin: 80px 20px;
     margin-top: -100px;
 }
-
-nav ul li a {
+nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 18px;
-    transition: color 0.3s ease; /* Added hover transition */
 }
-
-nav ul li a:hover {
-    color: lightcoral; /* Hover color */
-}
-
-.header-text {
+.header-text{
     padding-left: 80px;
     margin-top: 60px;
 }
-
-.header-text h1 {
+.header-text h1{
     padding: 0px;
     font-size: 60px;
     margin-top: 20px;
 }
-
-.header-text h1 span {
+.header-text h1 span{
     color: lightcoral;
 }
-
 /* -------------------about------------------- */
-
-#about {
+#about{
     padding: 60px 0;
     color: #ababab;
 }
-
-.row {
+.row{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-.about-col-1 {
+.about-col-1{
     flex-basis: 30%;
 }
-
-.about-col-1 img {
+.about-col-1 img{
     border-radius: 20px;
 }
-
-.about-col-2 {
+.about-col-2{
     flex-basis: 45%;
 }
-
-.sub-tittle {
+.sub-tittle{
     font-size: 60px;
     font-weight: 600;
     color: white;
 }
-
-.sub-text {
+.sub-text{
     padding-top: 150px;
     font-size: 20px;
 }
-
 /* --------------------skills------------------------- */
-
 .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +91,6 @@ nav ul li a:hover {
 }
 
 /* Styles for the top section */
-
 .top_div {
     text-align: center;
     width: 100%;
@@ -127,15 +102,9 @@ nav ul li a:hover {
 }
 
 /* Styles for individual content items */
-
 .content {
     text-align: center;
     margin: 20px;
-    transition: transform 0.3s ease; /* Added hover transition */
-}
-
-.content:hover {
-    transform: scale(1.05); /* Added hover effect */
 }
 
 .content img {
@@ -149,7 +118,6 @@ nav ul li a:hover {
 }
 
 /* .........................Projects......................... */
-
 #projects {
     background-color: #f9f9f9;
     padding: 50px 0;
@@ -159,8 +127,7 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 30px;
 }
-
-#projects {
+#projects{
     background: transparent;
     padding: 30px 0;
     margin-top: 50px;
@@ -175,37 +142,26 @@ nav ul li a:hover {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    transition: transform 0.3s ease; /* Added hover transition */
 }
-
-.project:hover {
-    transform: scale(1.05); /* Added hover effect */
-}
-
-.link {
+.link{
     box-sizing: border-box;
     position: relative;
     margin-top: 10px;
 }
-
-.poster {
+.poster{
     box-sizing: border-box;
     position: relative;
     margin-top: 10px;
 }
-
-.container101 {
+.container101{
     margin: 40px;
 }
-
-.sub-tittle {
+.sub-tittle{
     position: relative;
     text-align: center;
     padding-bottom: 30px;
 }
-
 /*.................contact.........................*/
-
 #contact {
     background-color: black;
     background-color: #000000; /* Dark background color */
@@ -252,9 +208,6 @@ nav ul li a:hover {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease; /* Added hover transition */
 }
 
-#contact button:hover {
-    background-color: #45a049; /* Hover color */
-}
+
